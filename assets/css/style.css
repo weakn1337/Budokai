@@ -1,0 +1,124 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #fe0000; /* orange */
+    --secondary-color: #f1a359; /* light orange */
+    --highlight-color: #720202; /* dark red */
+    --highlight-color-dark: #0a0a0a; /* black */
+}
+
+
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+    border: solid 1px var(--highlight-color-dark);
+    padding: 0.5rem 1rem;
+    
+    
+}
+
+#navbar .logo {
+    width: 45px;
+}
+
+
+/* Header */
+
+#header .lead {
+    font-family: var(--primary-font);
+}
+
+h2 {
+    font-family: var(--primary-font);
+}
+
+.section {
+    padding-top: 4rem;
+}
+
+/* Footer with contact */
+
+#contact {
+    background-color: var(--primary-color);
+    color: #070707;
+    padding-bottom: 1rem;
+    border: solid 1px var(--highlight-color-dark);
+    padding-top: 1rem;
+    
+}
+
+
+
+#contact .sub-heading {
+    color: var(--highlight-color-dark);
+}
+
+#contact i {
+    color: var(--highlight-color-dark);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social i {
+    color: var(--highlight-color-dark);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Buttons */
+
+.custom-button-filled {
+    border: 2px solid var(--highlight-color-dark);
+    background-color: var(--highlight-color-dark);
+    color: white;
+}
+
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.custom-button-outline {
+    border: 3px solid var(--highlight-color-dark);
+    padding: 7px 25px;
+    color: var(--highlight-color-dark)
+}
+
+.custom-button-outline:hover {
+    background-color: var(--highlight-color-dark);
+    color: white
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    
+    
+
+}
+
+/* large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    
+    
+
+}
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    
+
+}
+
+
+/* xxl devices (larger desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+    
+}
+ 
